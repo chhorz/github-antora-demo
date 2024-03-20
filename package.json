@@ -5,7 +5,8 @@
   "devDependencies": {
     "@antora/cli": "3.1.7",
     "@antora/site-generator": "3.1.7",
-    "browser-sync": "3.0.2"
+    "browser-sync": "3.0.2",
+    "@antora/lunr-extension": "1.0.0-alpha.8"
   },
   "scripts": {
     "antora": "node_modules/.bin/antora antora-playbook.yml --fetch --stacktrace",

@@ -8,6 +8,11 @@ content:
       branches: HEAD
       start_path: docs
 
+antora:
+  extensions:
+    - require: '@antora/lunr-extension'
+      languages: [en, de]
+
 ui:
   bundle:
     url: _antora/ui-bundle.zip
