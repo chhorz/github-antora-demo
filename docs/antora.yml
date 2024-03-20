@@ -1,0 +1,6 @@
+name: github-antora-demo
+title: Antora Demo for Github
+start_page: ROOT:index.adoc
+version: true
+nav:
+  - modules/ROOT/nav.adoc

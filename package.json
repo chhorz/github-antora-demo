@@ -1,0 +1,15 @@
+{
+  "name": "github-antora-demo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "devDependencies": {
+    "@antora/cli": "3.1.7",
+    "@antora/site-generator": "3.1.7",
+    "browser-sync": "3.0.2"
+  },
+  "scripts": {
+    "antora": "node_modules/.bin/antora antora-playbook.yml --fetch --stacktrace",
+    "preview": "node_modules/.bin/browser-sync start --server build/site/ --watch=true --files=\"build/site/**/*.*\"",
+    "updateUiBundle": "curl -fsSL https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable -o _antora/ui-bundle.zip"
+  }
+}
