@@ -1,6 +1,6 @@
 name: docs
 title: Antora Demo for Github
 start_page: ROOT:index.adoc
-version: false
+version: null
 nav:
   - modules/ROOT/nav.adoc
