@@ -1,3 +1,3 @@
 # Demo repository for Antora pages on Github
 
-_tbd_
+Page: https://chhorz.github.io/github-antora-demo

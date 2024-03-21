@@ -1,6 +1,6 @@
 site:
   title: Antora Demo Page
-  start_page: github-antora-demo:ROOT:index.adoc
+  start_page: docs::index.adoc
 
 content:
   sources:
